@@ -1,0 +1,50 @@
+@use "function";
+
+$fontFamily: "Helvetica Neue", "Roboto";
+$fontSize: function.rem(14);
+$mainColor: #fff;
+$bgColor: #1A1A1A;
+;
+
+$minWidth: 320;
+$maxWidth: 1440;
+// 0 - без ограничений
+$maxWidthContainer: 1110;
+$containerPadding: 30;
+
+// 1 = отзывчивость (у контейнера нет брейкпоинтов),
+// 2 = по брейк-поинтам (контейнер меняет свою ширину по брейк-поинтам)
+$responsiveType: 1;
+
+// Ширина отрабатывания первого брейкпоинта
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+// Брейк-поинты
+$pc: function.em($containerWidth); // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
+$tablet: function.em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: function.em(767.98); // Телефоны L
+$mobileSmall: function.em(479.98); // Телефоны S
+
+
+:root {
+    --fontFamily: #{$fontFamily};
+    --fontSize: #{$fontSize};
+    --mainColor: #{$mainColor};
+    --bgColor: #{$bgColor};
+
+    --minWidth: #{$minWidth};
+    --maxWidth: #{$maxWidth};
+    --maxWidthContainer: #{$maxWidthContainer};
+    --containerPadding: #{$containerPadding};
+
+
+    --responsiveType: #{$responsiveType};
+    --containerWidth: #{($containerWidth)};
+
+    --pc: #{($pc)};
+    --tablet: #{($tablet)};
+    --mobile: #{($mobile)};
+    --mobileSmall: #{($mobileSmall)};
+}
+
+

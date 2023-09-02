@@ -1,0 +1,55 @@
+:root {
+  --fontFamily: Helvetica Neue, Roboto;
+  --fontSize: 0.875rem;
+  --mainColor: #fff;
+  --bgColor: #1A1A1A;
+  --minWidth: 320;
+  --maxWidth: 1440;
+  --maxWidthContainer: 1110;
+  --containerPadding: 30;
+  --responsiveType: 1;
+  --containerWidth: 1140;
+  --pc: 71.25em;
+  --tablet: 61.99875em;
+  --mobile: 47.99875em;
+  --mobileSmall: 29.99875em;
+}
+
+.content__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 43px 0 29px;
+}
+.content__header-logo {
+  display: flex;
+  align-items: center;
+}
+.logo__header__img {
+  margin-right: 9px;
+}
+.logo__header__img img {
+  margin-bottom: 9px;
+}
+.logo__header__text {
+  color: #34C759;
+  font-weight: 900;
+  letter-spacing: 3.1px;
+  font-family: Roboto;
+}
+
+.nav__header__ul {
+  display: flex;
+  gap: 45px;
+}
+.nav__header__text {
+  color: #FFF;
+  font-weight: 700;
+}
+.nav__header__text:hover {
+  color: #34C759;
+}
+
+/*# sourceMappingURL=Header.css.map */

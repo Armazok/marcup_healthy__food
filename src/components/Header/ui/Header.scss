@@ -1,0 +1,78 @@
+@use "../../../app/styles/base/common";
+
+
+.header {
+    // .header__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__header
+    &__header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+
+        padding: 43px 0 29px;
+    }
+
+    // .content__header-logo
+    &__header-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    // .content__header-nav
+    &__header-nav {
+    }
+}
+
+
+.logo {
+    // .logo__header
+    &__header {
+        // .logo__header__img
+        &__img {
+            margin-right: 9px;
+
+            img {
+                margin-bottom: 9px;
+            }
+        }
+
+        // .logo__header__text
+        &__text {
+            color: #34C759;
+            font-weight: 900;
+            letter-spacing: 3.1px;
+            font-family: Roboto;
+        }
+    }
+}
+
+
+.nav {
+    // .nav__header
+    &__header {
+
+        // .nav__header__ul
+        &__ul {
+            display: flex;
+            gap: 45px;
+        }
+
+        // .nav__header__text
+        &__text {
+            color: #FFF;
+
+            font-weight: 700;
+
+            &:hover {
+                color: #34C759;
+            }
+        }
+    }
+}

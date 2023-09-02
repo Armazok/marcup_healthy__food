@@ -1,0 +1,14 @@
+.main {
+  background: url("../../../assets/main__bg.png") center/cover no-repeat;
+  min-height: 1250px;
+}
+.main::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background: #FFF;
+  opacity: 0.1;
+}
+
+/*# sourceMappingURL=Main.css.map */
