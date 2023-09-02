@@ -1,7 +1,15 @@
-@use "../../../app/styles/base/common";
-
-
 .header {
+    margin-bottom: 81px;
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 2px;
+        width: 100%;
+        background: #FFF;
+        opacity: 0.1;
+    }
+
     // .header__content
     &__content {
     }
@@ -16,7 +24,7 @@
         justify-content: space-between;
         gap: 15px;
 
-        padding: 43px 0 29px;
+        padding: 43px 0 18px;
     }
 
     // .content__header-logo

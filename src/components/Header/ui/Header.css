@@ -1,27 +1,21 @@
-:root {
-  --fontFamily: Helvetica Neue, Roboto;
-  --fontSize: 0.875rem;
-  --mainColor: #fff;
-  --bgColor: #1A1A1A;
-  --minWidth: 320;
-  --maxWidth: 1440;
-  --maxWidthContainer: 1110;
-  --containerPadding: 30;
-  --responsiveType: 1;
-  --containerWidth: 1140;
-  --pc: 71.25em;
-  --tablet: 61.99875em;
-  --mobile: 47.99875em;
-  --mobileSmall: 29.99875em;
+.header {
+  margin-bottom: 81px;
 }
-
+.header::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 100%;
+  background: #FFF;
+  opacity: 0.1;
+}
 .content__header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
-  padding: 43px 0 29px;
+  padding: 43px 0 18px;
 }
 .content__header-logo {
   display: flex;

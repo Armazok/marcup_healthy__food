@@ -2,13 +2,49 @@
   background: url("../../../assets/main__bg.png") center/cover no-repeat;
   min-height: 1250px;
 }
-.main::after {
-  content: "";
-  display: inline-block;
-  height: 2px;
-  width: 100%;
-  background: #FFF;
-  opacity: 0.1;
+.content__main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content__main-info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.wrapper__main__title {
+  margin-bottom: 16px;
+}
+.wrapper__main__title p {
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: 7.2px;
+  text-transform: capitalize;
+}
+.wrapper__main__title p span {
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 7.2px;
+  text-transform: capitalize;
+}
+.wrapper__main__subtitle {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.62;
+  letter-spacing: -0.2px;
+  opacity: 0.7;
+  max-width: 594px;
+  margin-bottom: 40px;
+}
+.wrapper__main__btn {
+  margin-bottom: 74px;
 }
 
 /*# sourceMappingURL=Main.css.map */

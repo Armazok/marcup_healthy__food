@@ -1,7 +1,7 @@
-@use "base/common";
+@import "./base/common";
 
 // Обнуление
-@import "base/null";
+@import "./base/null";
 
 body {
     color: var(--mainColor);
@@ -39,16 +39,16 @@ body {
 
 
 // Fonts
-@import "base/fonts";
+@import "./base/fonts";
 
 // Icon Fonts
-@import "base/icons";
+@import "./base/icons";
 
 // Container
-@import "base/container";
+@import "./base/container";
 
 // Helpers
-@import "base/helper";
+@import "./base/helper";
 
 
 

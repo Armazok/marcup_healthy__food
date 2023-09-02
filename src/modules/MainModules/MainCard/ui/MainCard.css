@@ -1,0 +1,21 @@
+.info__main__item {
+  flex: 1 1 245px;
+}
+.info__main__item__img {
+  margin-bottom: 16px;
+}
+.info__main__item__title {
+  color: #FFF;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+.info__main__item__subtitle {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=MainCard.css.map */
