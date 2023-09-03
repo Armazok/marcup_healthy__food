@@ -1,6 +1,7 @@
 import { FC, memo } from 'react';
 import './About.scss';
 import { SwiperComponent, swiperData } from 'components/Swiper';
+import { HeaderSection } from 'components/HeaderSection';
 
 interface IAbout {
 
@@ -13,11 +14,11 @@ export const About: FC<IAbout> = memo(({}) => {
                 <div className="about__content content__about">
 
                     <div className="content__about-header header__about">
-                        <div className="header__about__title">
-                            <p>
-                                The Basics Of Healthy Food <span>About</span>
-                            </p>
-                        </div>
+
+                        <HeaderSection
+                            title={'The Basics Of Healthy Food'}
+                            bgTitle={'About'}
+                        />
 
                         <div className="header__about__subtitle">
                             <p>

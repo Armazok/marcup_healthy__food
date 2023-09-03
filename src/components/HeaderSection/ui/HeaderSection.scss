@@ -1,0 +1,44 @@
+.header {
+    // .header__about
+    &__about {
+        // .header__about__title
+        &__title {
+
+            margin-bottom: 61px;
+            max-width: 532px;
+
+            p {
+                color: #D9D9D9;
+
+                font-size: 30px;
+                line-height: 2;
+
+                font-weight: 400;
+                letter-spacing: 6px;
+
+                position: relative;
+                z-index: 10;
+
+                text-transform: capitalize;
+
+                span {
+                    color: #303030;
+
+                    font-size: 100px;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+
+                    font-weight: 900;
+                    letter-spacing: 20px;
+
+                    position: absolute;
+                    top: -45px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}

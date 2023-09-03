@@ -1,5 +1,5 @@
 .main {
-  background: url("../../../assets/main__bg.png") center/cover no-repeat;
+  background: url("../../../assets/main__bg.png") 0 0/cover no-repeat;
   min-height: 100vh;
 }
 .content__main {

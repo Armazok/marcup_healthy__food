@@ -1,3 +1,16 @@
-
+.content__work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.content__work-header {
+  margin-bottom: 59px;
+}
+.content__work-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
 /*# sourceMappingURL=Work.css.map */

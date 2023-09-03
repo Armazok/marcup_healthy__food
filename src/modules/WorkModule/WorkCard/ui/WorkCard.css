@@ -1,0 +1,47 @@
+.card__item {
+  flex: 1 1 255px;
+  padding: 24px 24px 42px 24px;
+  border-radius: 6px;
+  background: #252525;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.5s, box-shadow 0.5s;
+}
+.card__item:hover {
+  border-radius: 6px;
+  transform: scale(1.05);
+  background: #34C759;
+  box-shadow: 0 0 55px #34C759, 0 -12px 30px #34C759, 0 4px 6px #34C759, 0 12px 13px #34C759, 0 -3px 5px rgba(0, 0, 0, 0.09);
+}
+.card__item:hover .card__item__title,
+.card__item:hover .card__item__subtitle {
+  color: #191919;
+  transition: 0.8s;
+}
+.card__item:hover .card__item__title::after {
+  background: #191919;
+  transition: 0.8s;
+}
+.card__item__title {
+  color: #FFF;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.275px;
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.card__item__title::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 28.05%;
+  background: #34C759;
+}
+.card__item__subtitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  line-height: 1.38;
+  font-weight: 400;
+  letter-spacing: -0.162px;
+}
+
+/*# sourceMappingURL=WorkCard.css.map */

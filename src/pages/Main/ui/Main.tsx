@@ -2,8 +2,8 @@ import { FC, memo } from 'react';
 import './Main.scss';
 import { Header } from 'components/Header';
 import { Button } from 'ui';
-import { MainCard } from 'modules/MainModules/MainCard';
-import { mainCardsData } from 'modules/MainModules/MainCardsData';
+import { MainCard } from 'modules/MainModule/MainCard';
+import { mainCardsData } from 'modules/MainModule/MainCardsData';
 
 interface IMain {
 

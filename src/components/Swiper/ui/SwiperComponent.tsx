@@ -19,9 +19,9 @@ export const SwiperComponent: FC<ISwiper> = memo(({
         <Swiper
             modules={[ Navigation, Pagination, A11y ]}
             navigation
-            pagination={{clickable: true}}
+            // pagination={{clickable: true}}
 
-            spaceBetween={-200}
+            spaceBetween={34}
             slidesPerView={2}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}

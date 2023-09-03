@@ -1,0 +1,40 @@
+.work {
+    // .work__container
+    &__container {
+    }
+
+    // .work__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__work
+    &__work {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-bottom: 120px;
+    }
+
+    // .content__work-header
+    &__work-header {
+        margin-bottom: 59px;
+    }
+
+    // .content__work-cards
+    &__work-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+.cards {
+    // .cards__work
+    &__work {
+    }
+}
+
+

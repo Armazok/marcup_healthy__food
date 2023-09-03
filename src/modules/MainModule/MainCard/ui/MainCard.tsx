@@ -1,4 +1,4 @@
-import { IMainDataCards } from 'modules/MainModules/MainCardsData';
+import { IMainDataCards } from 'modules/MainModule/MainCardsData';
 import { FC, memo } from 'react';
 import './MainCard.scss';
 
