@@ -1,5 +1,6 @@
 import { Main } from 'pages/Main';
 import { About } from 'pages/About';
+import { Work } from 'pages/Work';
 
 function App() {
     return (
@@ -7,6 +8,7 @@ function App() {
             <div className="wrapper">
                 <Main/>
                 <About/>
+                <Work/>
             </div>
         </div>
     );

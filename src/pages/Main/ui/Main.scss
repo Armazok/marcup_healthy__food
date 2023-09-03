@@ -1,6 +1,6 @@
 .main {
     background: url("../../../assets/main__bg.png") center / cover no-repeat;
-    min-height: 1250px;
+    min-height: 100vh;
 
 
     // .main__container
@@ -16,7 +16,7 @@
 
     // .content__main
     &__main {
-
+        margin-bottom: 164px;
     }
 
     // .content__main-wrapper

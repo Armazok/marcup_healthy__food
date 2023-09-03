@@ -1,0 +1,109 @@
+.about {
+    // .about__container
+    &__container {
+    }
+
+    // .about__content
+    &__content {
+    }
+}
+
+.content {
+    // .content__about
+    &__about {
+        border-radius: 6px;
+        background: #252525;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);
+
+        min-height: 736px;
+
+        padding-top: 105px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    // .content__about-header
+    &__about-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    // .content__about-swiper
+    &__about-swiper {
+        margin-bottom: 90px;
+    }
+}
+
+
+.swiper {
+    // .swiper__about
+    &__about {
+        // .swiper__about__wrapper
+        &__wrapper {
+        }
+    }
+}
+
+
+.header {
+    // .header__about
+    &__about {
+        // .header__about__title
+        &__title {
+
+            margin-bottom: 61px;
+            max-width: 532px;
+
+            p {
+                color: #D9D9D9;
+
+                font-size: 30px;
+                line-height: 2;
+
+                font-weight: 400;
+                letter-spacing: 6px;
+
+                position: relative;
+                z-index: 10;
+
+
+                span {
+                    color: #303030;
+
+                    font-size: 100px;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+
+                    font-weight: 900;
+                    letter-spacing: 20px;
+
+                    position: absolute;
+                    top: -45px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    z-index: -1;
+                }
+            }
+        }
+
+        // .header__about__subtitle
+        &__subtitle {
+            color: #A6A6A6;
+
+            font-size: 16px;
+            line-height: 1.87;
+
+            font-weight: 400;
+
+            max-width: 734px;
+
+            margin-bottom: 90px;
+        }
+    }
+}

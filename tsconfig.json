@@ -22,6 +22,8 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "swiper.d.ts",
+    "global.d.ts"
   ]
 }

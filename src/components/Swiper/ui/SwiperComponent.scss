@@ -1,0 +1,40 @@
+.swiper-button-prev {
+    background: url("../../../assets/Swiper/btn-prev.svg") center / cover no-repeat !important;
+    padding: 36px;
+    border-radius: 50%;
+
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    transition: .7s, box-shadow .5s;
+
+
+    &::after {
+        display: none !important;
+    }
+
+    &:hover {
+
+        box-shadow: 0 5px 55px #0f9fec, 0 -12px 30px #0983c4, 0 4px 6px #0d8acc, 0 12px 13px #0d7cb7, 0 -3px 5px rgba(0, 0, 0, .09);
+        transform: scale(1.05);
+
+    }
+}
+
+.swiper-button-next {
+    background: url("../../../assets/Swiper/btn-next.svg") center / cover no-repeat !important;
+    padding: 36px;
+    border-radius: 50%;
+
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    transition: .7s, box-shadow .5s;
+
+
+    &::after {
+        display: none !important;
+    }
+
+    &:hover {
+        box-shadow: 0 5px 55px #0f9fec, 0 -12px 30px #0983c4, 0 4px 6px #0d8acc, 0 12px 13px #0d7cb7, 0 -3px 5px rgba(0, 0, 0, .09);
+        transform: scale(1.05);
+
+    }
+}
