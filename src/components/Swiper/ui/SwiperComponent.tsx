@@ -1,12 +1,11 @@
 import { FC, memo } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Navigation, Pagination } from 'swiper/modules';
-import { SwiperDataItem } from '../SwiperData/SwiperData';
+import { Navigation } from 'swiper/modules';
+import { SwiperDataItem } from 'modules/SwiperModule/SwiperCardsData';
 
 import './SwiperComponent.scss';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 interface ISwiper {
     items: SwiperDataItem[]
@@ -18,11 +17,10 @@ export const SwiperComponent: FC<ISwiper> = memo(({
     return (
         <Swiper
             // @ts-ignore
-            modules={[ Navigation, Pagination, A11y ]}
+            modules={[ Navigation ]}
             navigation
-            // pagination={{clickable: true}}
 
-            spaceBetween={34}
+            spaceBetween={20}
             slidesPerView={2}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}

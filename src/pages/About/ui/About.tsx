@@ -1,7 +1,8 @@
 import { FC, memo } from 'react';
-import './About.scss';
-import { SwiperComponent, swiperData } from 'components/Swiper';
 import { HeaderSection } from 'components/HeaderSection';
+import { SwiperComponent } from 'components/Swiper';
+import { swiperData } from 'modules/SwiperModule/SwiperCardsData';
+import './About.scss';
 
 interface IAbout {
 
