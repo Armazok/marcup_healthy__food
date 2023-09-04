@@ -1,0 +1,39 @@
+.content__dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.content__dishes-header {
+  text-align: center;
+}
+.content__dishes-header .header__about__title {
+  margin-bottom: 30px;
+}
+.content__dishes-header p {
+  color: #D9D9D9;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 2.5;
+  letter-spacing: 7.2px;
+}
+.content__dishes-header p span {
+  top: -29px;
+  left: -20px;
+}
+.content__dishes-header::after {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  height: 2px;
+  width: 24%;
+  background: #34c759;
+  margin-bottom: 59px;
+}
+.content__dishes-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=Dishes.css.map */

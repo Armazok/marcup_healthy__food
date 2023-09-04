@@ -1,6 +1,7 @@
 import { Main } from 'pages/Main';
 import { About } from 'pages/About';
 import { Work } from 'pages/Work';
+import { Dishes } from 'pages/Dishes';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
                 <Main/>
                 <About/>
                 <Work/>
+                <Dishes/>
             </div>
         </div>
     );
