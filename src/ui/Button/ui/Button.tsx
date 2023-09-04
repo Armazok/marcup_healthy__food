@@ -1,4 +1,4 @@
-import './Button.scss';
+import 'ui/Button/ui/Button.scss';
 
 interface ButtonProps {
     primary?: boolean;
