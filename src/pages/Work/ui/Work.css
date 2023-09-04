@@ -5,6 +5,30 @@
   margin-bottom: 120px;
 }
 .content__work-header {
+  text-align: center;
+}
+.content__work-header .header__about__title {
+  margin-bottom: 30px;
+}
+.content__work-header p {
+  color: #D9D9D9;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 2.5;
+  letter-spacing: 7.2px;
+  text-transform: capitalize;
+}
+.content__work-header p span {
+  top: -35px;
+  left: -8px;
+}
+.content__work-header::after {
+  content: "";
+  display: inline-block;
+  text-align: center;
+  height: 2px;
+  width: 24%;
+  background: #34c759;
   margin-bottom: 59px;
 }
 .content__work-cards {

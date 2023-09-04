@@ -20,7 +20,42 @@
 
     // .content__work-header
     &__work-header {
-        margin-bottom: 59px;
+        text-align: center;
+
+        .header__about__title {
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #D9D9D9;
+
+            font-size: 36px;
+            font-weight: 400;
+
+            line-height: 2.5;
+            letter-spacing: 7.2px;
+            text-transform: capitalize;
+
+            span {
+                top: -35px;
+                left: -8px;
+            }
+
+        }
+
+        &::after {
+            content: "";
+            display: inline-block;
+            text-align: center;
+
+            height: 2px;
+            width: 24%;
+
+            background: #34c759;
+
+            margin-bottom: 59px;
+
+        }
     }
 
     // .content__work-cards
