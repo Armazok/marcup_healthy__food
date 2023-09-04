@@ -17,6 +17,7 @@ export const SwiperComponent: FC<ISwiper> = memo(({
                                                   }) => {
     return (
         <Swiper
+            // @ts-ignore
             modules={[ Navigation, Pagination, A11y ]}
             navigation
             // pagination={{clickable: true}}
