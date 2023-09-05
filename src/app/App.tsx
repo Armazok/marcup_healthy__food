@@ -2,6 +2,8 @@ import { Main } from 'pages/Main';
 import { About } from 'pages/About';
 import { Work } from 'pages/Work';
 import { Dishes } from 'pages/Dishes';
+import { Chefs } from 'pages/Chefs';
+import { Recipes } from 'pages/Recipes';
 
 function App() {
     return (
@@ -11,6 +13,8 @@ function App() {
                 <About/>
                 <Work/>
                 <Dishes/>
+                <Chefs/>
+                <Recipes/>
             </div>
         </div>
     );
