@@ -58,4 +58,24 @@
   margin-right: 14px;
 }
 
+.bg-small-class {
+  background: url("../../../../assets/Recipes/bg__small_card.svg") center/cover no-repeat;
+}
+
+.bg-green-class {
+  background: #34C759;
+}
+
+.card-text-black {
+  color: #252525;
+}
+
+.food-type {
+  background: #000000;
+}
+
+.card-data {
+  color: #1A1A1A;
+}
+
 /*# sourceMappingURL=RecipesCardSmall.css.map */

@@ -29,9 +29,31 @@ export const Recipes: FC<IRecipes> = memo(({}) => {
 
 
                         <div className="cards__recipes__wrapper-small card__recipes">
-                            <RecipesCardSmall/>
-                            <RecipesCardSmall/>
-                            <RecipesCardSmall/>
+                            <RecipesCardSmall
+                                cardText={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut'}
+                                foodType={'lunch'}
+                                cardDate={'07 Jan 2016'}
+                            />
+
+                            <RecipesCardSmall
+                                cardText={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'}
+                                foodType={'dinner'}
+                                cardDate={'07 Jan 2016'}
+
+                                bg_small
+                            />
+                            <RecipesCardSmall
+                                cardText={'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt'}
+                                foodType={'sweets'}
+                                cardDate={'07 Jan 2016'}
+
+                                bg_green
+                                cardTextBack
+                                styleCardDate
+                                styleFoodType
+                                iconBlack_1
+                                iconBlack_2
+                            />
                         </div>
 
                     </div>
