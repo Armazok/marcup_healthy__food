@@ -9,8 +9,8 @@ interface IRecipesCardSmall {
     bg_small?: boolean
     bg_green?: boolean
     cardTextBack?: boolean
-    styleFoodType?: boolean
-    styleCardDate?: boolean
+    cardTypeFoodBlack?: boolean
+    cardDateBlack?: boolean
     iconBlack_1?: boolean
     iconBlack_2?: boolean
 
@@ -23,8 +23,8 @@ export const RecipesCardSmall: FC<IRecipesCardSmall> = memo(({
                                                                  bg_small = false,
                                                                  bg_green = false,
                                                                  cardTextBack = false,
-                                                                 styleFoodType = false,
-                                                                 styleCardDate = false,
+                                                                 cardTypeFoodBlack = false,
+                                                                 cardDateBlack = false,
                                                                  iconBlack_1 = false,
                                                                  iconBlack_2 = false,
                                                                  cardText,
@@ -49,11 +49,11 @@ export const RecipesCardSmall: FC<IRecipesCardSmall> = memo(({
             <div className="card__recipes__small__footer">
 
                 <div className="card__recipes__small__footer__info__wrapper">
-                    <div className={`card__recipes__small__footer__text ? ${styleFoodType ? 'food-type' : ''}`}>
+                    <div className={`card__recipes__small__footer__text ? ${cardTypeFoodBlack ? 'food-type' : ''}`}>
                         <p>{foodType}</p>
                     </div>
 
-                    <div className={`card__recipes__small__footer__data ? ${styleCardDate ? 'card-data' : ''}`}>
+                    <div className={`card__recipes__small__footer__data ? ${cardDateBlack ? 'card-data' : ''}`}>
                         <p>{cardDate}</p>
                     </div>
                 </div>

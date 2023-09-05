@@ -49,8 +49,8 @@ export const Recipes: FC<IRecipes> = memo(({}) => {
 
                                 bg_green
                                 cardTextBack
-                                styleCardDate
-                                styleFoodType
+                                cardDateBlack
+                                cardTypeFoodBlack
                                 iconBlack_1
                                 iconBlack_2
                             />
