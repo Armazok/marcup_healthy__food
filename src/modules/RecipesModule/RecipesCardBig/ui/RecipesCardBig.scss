@@ -1,0 +1,101 @@
+.card {
+    // .card__recipes
+    &__recipes {
+        // .card__recipes__big
+        &__big {
+            background: url("../../../../assets/Recipes/bg__big.svg") center / cover no-repeat;
+            padding: 60px 90px;
+
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            border-radius: 6px;
+        }
+
+        // .card__recipes__big__title
+        &__big__title {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 5px;
+
+            background-color: rgba(0, 0, 0, 0.3);
+
+
+            color: #FFF;
+
+            font-size: 10px;
+            line-height: 2.5;
+
+            font-weight: 900;
+            letter-spacing: 1.25px;
+            text-transform: uppercase;
+
+            margin-bottom: 65px;
+        }
+
+        // .card__recipes__big__data
+        &__big__data {
+            color: #FFF;
+
+
+            line-height: 2.14;
+            font-weight: 400;
+
+            margin-bottom: 25px;
+
+            flex: 1 1 auto;
+        }
+
+        // .card__recipes__big__description
+        &__big__description {
+            color: #FFF;
+
+            font-size: 24px;
+            line-height: 1.66;
+
+            font-weight: 400;
+
+            margin-bottom: 45px;
+
+            max-width: 411px;
+
+            flex: 1 1 auto;
+        }
+
+        // .card__recipes__big__author
+        &__big__author {
+            color: #FFF;
+
+            line-height: 2.14;
+            font-weight: 400;
+
+            margin-bottom: 60px;
+        }
+
+        // .card__recipes__big__info
+        &__big__info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 27px;
+        }
+
+        // .card__recipes__big__info__img
+        &__big__info__img {
+            display: flex;
+            align-items: center;
+
+            color: #FFF;
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            img {
+                margin-right: 14px;
+            }
+        }
+    }
+}

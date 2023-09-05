@@ -1,0 +1,89 @@
+.card {
+    // .card__recipes
+    &__recipes {
+        // .card__recipes__small
+        &__small {
+            padding: 23px;
+            border-radius: 6px;
+            height: 100%;
+            background: #252525;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        // .card__recipes__small__text
+        &__small__text {
+            color: #FFF;
+
+            font-size: 16px;
+            line-height: 1.87;
+
+            font-weight: 400;
+
+            margin-bottom: 10px;
+        }
+
+        // .card__recipes__small__footer
+        &__small__footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        // .card__recipes__small__footer__info__wrapper
+        &__small__footer__info__wrapper {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        // .card__recipes__small__footer__text
+        &__small__footer__text {
+            color: #FFF;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+            display: inline-block;
+            padding: 4px 8px;
+
+            font-size: 10px;
+            line-height: 2.50;
+
+            font-weight: 900;
+            letter-spacing: 1.25px;
+            text-transform: uppercase;
+
+        }
+
+        // .card__recipes__small__footer__data
+        &__small__footer__data {
+            color: #B3B3B3;
+
+            font-size: 12px;
+            line-height: 2.08;
+
+            font-weight: 400;
+        }
+
+        // .card__recipes__small__info
+        &__small__info {
+            display: flex;
+            gap: 32px;
+        }
+
+        // .card__recipes__small__info__img
+        &__small__info__img {
+            display: flex;
+            align-items: center;
+            color: #FFF;
+            font-size: 12px;
+            font-weight: 700;
+
+            img {
+                margin-right: 14px;
+            }
+        }
+    }
+}
