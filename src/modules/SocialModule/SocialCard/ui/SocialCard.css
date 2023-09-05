@@ -19,12 +19,20 @@
   margin-bottom: 20px;
 }
 .instagram__social {
-  display: flex;
-  flex-wrap: wrap;
   padding-top: 20px;
 }
+.instagram__social__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -25px;
+  margin-left: -24px;
+  margin-bottom: -25px;
+}
 .instagram__social__wrapper img {
-  width: 33%;
+  flex: 1;
+  min-width: 116px;
+  object-fit: cover;
+  height: auto;
 }
 
 .header__social__name {
