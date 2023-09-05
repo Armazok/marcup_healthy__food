@@ -1,0 +1,78 @@
+.cards__social__wrapper {
+  flex: 1 1 350px;
+  padding: 25px;
+  background: #252525;
+  border-radius: 5px;
+}
+.cards__social-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 23px;
+}
+.cards__social-post::before {
+  content: "";
+  display: inline-block;
+  padding: 2px;
+  width: 100%;
+  background: #303030;
+  margin-bottom: 20px;
+}
+.instagram__social {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.instagram__social__wrapper img {
+  width: 33%;
+}
+
+.header__social__name {
+  display: flex;
+  align-items: center;
+  color: #BFBFBF;
+  font-size: 14px;
+  line-height: 2.14;
+  font-weight: 400;
+}
+.header__social__name img {
+  border-radius: 50%;
+  border: 2px solid #303030;
+  min-height: 25px;
+  min-width: 25px;
+  margin-right: 20px;
+}
+.header__social__btn button {
+  color: #737373;
+  background-color: #262626;
+  border: 2px solid #303030;
+  font-size: 10px;
+  line-height: 4;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 13px;
+}
+
+.post__social__date {
+  color: #737373;
+  font-size: 14px;
+  line-height: 2.14;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.post__social__text {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  line-height: 2.14;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.post__social__author {
+  color: #34C759;
+  font-size: 14px;
+  line-height: 2.14;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=SocialCard.css.map */

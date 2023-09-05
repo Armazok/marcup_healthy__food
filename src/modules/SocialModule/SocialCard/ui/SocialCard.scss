@@ -1,0 +1,153 @@
+.cards {
+    // .cards__social
+    &__social {
+        // .cards__social__wrapper
+        &__wrapper {
+            flex: 1 1 350px;
+            padding: 25px;
+
+            background: #252525;
+            border-radius: 5px;
+
+
+        }
+    }
+
+    // .cards__social-header
+    &__social-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: 23px;
+    }
+
+    // .cards__social-post
+    &__social-post {
+
+        &::before {
+            content: "";
+            display: inline-block;
+
+            padding: 2px;
+            width: 100%;
+
+            background: #303030;
+
+            margin-bottom: 20px;
+        }
+
+    }
+
+    &__social-instagram {
+    }
+}
+
+
+.instagram {
+    // .instagram__social
+    &__social {
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-top: 20px;
+
+        // .instagram__social__wrapper
+        &__wrapper {
+
+            img {
+                width: 33%;
+            }
+        }
+    }
+}
+
+
+.header {
+    // .header__social
+    &__social {
+        // .header__social__name
+        &__name {
+            display: flex;
+            align-items: center;
+
+            color: #BFBFBF;
+
+            font-size: 14px;
+            line-height: 2.14;
+
+            font-weight: 400;
+
+
+            img {
+                border-radius: 50%;
+                border: 2px solid #303030;
+
+                min-height: 25px;
+                min-width: 25px;
+
+                margin-right: 20px;
+
+            }
+
+        }
+
+        // .header__social__btn
+        &__btn {
+
+            button {
+                color: #737373;
+                background-color: #262626;
+                border: 2px solid #303030;
+
+                font-size: 10px;
+                line-height: 4;
+
+                font-weight: 900;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+
+                padding: 0 13px;
+            }
+        }
+    }
+}
+
+.post {
+    // .post__social
+    &__social {
+        // .post__social__date
+        &__date {
+            color: #737373;
+
+            font-size: 14px;
+            line-height: 2.14;
+
+            font-weight: 400;
+
+            margin-bottom: 10px;
+        }
+
+        // .post__social__text
+        &__text {
+            color: rgba(255, 255, 255, 0.70);
+
+            font-size: 14px;
+            line-height: 2.14;
+
+            font-weight: 400;
+
+            margin-bottom: 10px;
+        }
+
+        // .post__social__author
+        &__author {
+            color: #34C759;
+
+            font-size: 14px;
+            line-height: 2.14;
+
+            font-weight: 400;
+        }
+    }
+}
