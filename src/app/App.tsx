@@ -5,6 +5,7 @@ import { Dishes } from 'pages/Dishes';
 import { Chefs } from 'pages/Chefs';
 import { Recipes } from 'pages/Recipes';
 import { Social } from 'pages/Social';
+import { Footer } from 'pages/Footer';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Chefs/>
                 <Recipes/>
                 <Social/>
+                <Footer/>
             </div>
         </div>
     );

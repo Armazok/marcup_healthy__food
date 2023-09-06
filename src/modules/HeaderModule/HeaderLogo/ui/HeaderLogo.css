@@ -1,0 +1,18 @@
+.logo__header__wrapper {
+  display: flex;
+  align-items: center;
+}
+.logo__header__img {
+  margin-right: 9px;
+}
+.logo__header__img img {
+  margin-bottom: 9px;
+}
+.logo__header__text {
+  color: #34C759;
+  font-weight: 900;
+  letter-spacing: 3.1px;
+  font-family: Roboto;
+}
+
+/*# sourceMappingURL=HeaderLogo.css.map */

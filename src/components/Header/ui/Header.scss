@@ -29,35 +29,10 @@
 
     // .content__header-logo
     &__header-logo {
-        display: flex;
-        align-items: center;
     }
 
     // .content__header-nav
     &__header-nav {
-    }
-}
-
-
-.logo {
-    // .logo__header
-    &__header {
-        // .logo__header__img
-        &__img {
-            margin-right: 9px;
-
-            img {
-                margin-bottom: 9px;
-            }
-        }
-
-        // .logo__header__text
-        &__text {
-            color: #34C759;
-            font-weight: 900;
-            letter-spacing: 3.1px;
-            font-family: Roboto;
-        }
     }
 }
 

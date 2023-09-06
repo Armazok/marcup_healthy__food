@@ -1,11 +1,11 @@
 import { FC, memo } from 'react';
 import { Button } from 'ui/Button';
-import Item_1 from 'assets/Social/item_1.png';
-import Item_2 from 'assets/Social/item_2.png';
-import Item_3 from 'assets/Social/item_3.png';
-import Item_4 from 'assets/Social/item_4.png';
-import Item_5 from 'assets/Social/item_5.png';
-import Item_6 from 'assets/Social/item_6.png';
+import Item_1 from 'assets/Social/item_1.svg';
+import Item_2 from 'assets/Social/item_2.svg';
+import Item_3 from 'assets/Social/item_3.svg';
+import Item_4 from 'assets/Social/item_4.svg';
+import Item_5 from 'assets/Social/item_5.svg';
+import Item_6 from 'assets/Social/item_6.svg';
 import './SocialCard.scss';
 
 interface ISocialCard {

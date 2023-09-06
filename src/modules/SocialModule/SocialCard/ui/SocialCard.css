@@ -3,6 +3,12 @@
   padding: 25px;
   background: #252525;
   border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.7s, box-shadow 0.5s;
+}
+.cards__social__wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: rgb(15, 159, 236) 0 54px 55px, rgb(9, 131, 196) 0 -12px 30px, rgb(13, 138, 204) 0 4px 6px, rgb(13, 124, 183) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
 }
 .cards__social-header {
   display: flex;
@@ -60,6 +66,14 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 0 13px;
+}
+.header__social__btn button:hover {
+  transition: 0.7s;
+  color: #252525;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .post__social__date {

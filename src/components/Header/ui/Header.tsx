@@ -1,6 +1,6 @@
 import { FC, memo } from 'react';
+import { HeaderLogo } from 'modules/HeaderModule/HeaderLogo';
 import './Header.scss';
-import Logo from 'assets/Header/Logo.svg';
 
 interface IHeader {
 
@@ -13,13 +13,7 @@ export const Header: FC<IHeader> = memo(({}) => {
                 <div className="header__content content__header">
 
                     <div className="content__header-logo logo__header">
-                        <div className="logo__header__img">
-                            <img src={Logo} width={'25'} height={'24'} alt=""/>
-                        </div>
-
-                        <h1 className="logo__header__text">
-                            HEALTHY SWITCHER
-                        </h1>
+                        <HeaderLogo/>
                     </div>
 
                     <nav className="content__header-nav nav__header">

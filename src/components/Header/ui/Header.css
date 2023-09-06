@@ -17,23 +17,6 @@
   gap: 15px;
   padding: 43px 0 18px;
 }
-.content__header-logo {
-  display: flex;
-  align-items: center;
-}
-.logo__header__img {
-  margin-right: 9px;
-}
-.logo__header__img img {
-  margin-bottom: 9px;
-}
-.logo__header__text {
-  color: #34C759;
-  font-weight: 900;
-  letter-spacing: 3.1px;
-  font-family: Roboto;
-}
-
 .nav__header__ul {
   display: flex;
   gap: 45px;
